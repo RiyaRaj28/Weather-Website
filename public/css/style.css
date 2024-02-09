@@ -37,6 +37,11 @@ body{
     background-color: var(--main-bg);
     padding: 2rem 0;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
 .navbar li {
@@ -164,13 +169,15 @@ body{
  }
 
  .tempInformation{
-    width: 50rem;
+    width: 100%;
     margin: auto; 
     min-height: 20rem;
     background-color: #323544;
     border-radius: 1rem;
     padding: 1.5rem;
     font-family: "Roboto", sans-serif;
+
+    align-items: center;
  }
 
  .top_layer{
@@ -260,9 +267,9 @@ footer p{
     color: #fff;
 }
 
-/* responsive code  */
-@media (max-width: 768px){
-    .main_header_left{
+/* responsive code   */
+ @media (max-width: 768px){
+    .main_header_left,{
     height: auto;
     margin: 5rem 0;
     }
@@ -271,8 +278,8 @@ footer p{
     height: auto;
     margin-top: 3rem;
     
-}
-}
+} 
+ }
 
 /* temp input filed  */
 
