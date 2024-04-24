@@ -11,7 +11,7 @@ It uses Node.js, Express.js for the backend, and HTML, CSS, and JavaScript for t
 - Dynamic Icons: Icons change based on the weather status (e.g., sunny, cloudy, rainy).
 
 ## Live Demo
-  Check out the live demo : https://weather-web-o7iw.onrender.com/weather
+  Check out the live demo : https://weather-web-o7iw.onrender.com
 
 
 ## Installation
